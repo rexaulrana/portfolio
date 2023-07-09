@@ -1,0 +1,42 @@
+/* common Shared styles */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+header{
+    background-color: #FFF8F3;
+    /* margin: 5px 120px ; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: normal;
+}
+.name{
+    color: #FD6E0A;
+}
+nav ul{
+    /* text-decoration: none; */
+    list-style: none;
+    display: flex;
+    /* margin-right: 10px; */
+}
+nav ul li{
+    margin-right: 10px;
+    /* text-decoration: none; */
+
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+.description-container{
+    display: flex;
+}
